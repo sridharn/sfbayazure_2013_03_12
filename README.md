@@ -1,0 +1,1 @@
+Scripts associated with Introduction to MongoDB presentation at SF Bay Area Azure Meetup. 

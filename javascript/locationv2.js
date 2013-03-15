@@ -12,6 +12,8 @@ db.locations.insert(location_2)
 
 db.locations.find({tags: "dumplings"})
 
+db.locations.find({tags: "dumplings"}).explain()
+
 db.locations.ensureIndex({tags: 1}) 
 
 db.locations.find({tags: "dumplings"}).explain()
